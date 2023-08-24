@@ -50,7 +50,7 @@ const useStyle = makeStyles((theme) => ({
         top: "13vh",
         left: "30vw",
         [theme.breakpoints.down("sm")]:{
-            top: "16vh",
+            top: "20vh",
             left: 0,
         }
     },
@@ -67,12 +67,14 @@ const useStyle = makeStyles((theme) => ({
     people : {
         display: "flex",
         justifyContent: "center",
+        alignItems: "center",
+
     },
     input:{
-        width: "8vw",
+        width: "4vw",
         border: "1px solid #ccc",
-        margin: theme.spacing(0,2,2,0),
-        padding: theme.spacing(1,0,1,3),
+        margin: theme.spacing(1,2,0,0),
+        padding: theme.spacing(0.5,0,0.5,1)
     },
 }))
   
